@@ -1,0 +1,16 @@
+{
+  "name": "@meok-ai/governance-engine",
+  "version": "1.0.0",
+  "description": "MEOK Governance Engine - 62 AI governance tools. EU AI Act + NIST + ISO 42001 + crosswalks. Most comprehensive compliance MCP.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "governance", "compliance", "eu-ai-act", "nist", "iso-42001", "gdpr", "soc2"],
+  "author": "MEOK AI Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}

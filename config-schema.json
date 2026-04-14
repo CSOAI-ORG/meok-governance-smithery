@@ -1,0 +1,14 @@
+{
+  "type": "object",
+  "properties": {
+    "apiKey": {
+      "type": "string",
+      "description": "Optional API key for premium features"
+    },
+    "organization": {
+      "type": "string", 
+      "description": "Organization name for reports"
+    }
+  },
+  "required": []
+}
