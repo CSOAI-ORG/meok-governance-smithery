@@ -1,50 +1,38 @@
-# MEOK Governance Engine MCP - Smithery Edition
+<div align="center">
 
-A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.
+[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/meok-governance-smithery)](https://github.com/CSOAI-ORG/meok-governance-smithery/stargazers)
 
-## Status
+# umeokU governanceU smithery
 
-⚠️ **Published but sandbox scan failed** - Smithery couldn't run the server without config. Server was built but card generation failed.
+**A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.**
 
-## For Manual Smithery Setup
+[![npm version](https://img.shields.io/npm/v/@meok-ai/meok-governance-smithery)](https://www.npmjs.com/package/@meok-ai/meok-governance-smithery)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
 
-If you can access Smithery dashboard at https://smithery.ai:
+[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/meok-governance-smithery/issues)
 
-1. Go to https://smithery.ai/new
-2. Select "JavaScript/TypeScript" 
-3. Enter: `https://github.com/meok-ai/governance-engine-smithery` as repo
-4. Entry point: `index.js`
-5. This JS version provides 12 core governance tools
+</div>
 
-## Or Add Directly
+---
 
-Users can add this server via Smithery CLI:
+## Installation
+
+```bash
+pip install meok-governance-smithery
+# or
+npm install -g @meok-ai/meok-governance-smithery
 ```
-smithery mcp add https://server.smithery.ai/meok-ai/governance-engine
-```
 
-## Tools Available
+## Quick Start
 
-1. **list_all_tools** - List all 62 governance tools
-2. **which_frameworks_apply** - Determine applicable frameworks by industry/jurisdiction
-3. **compliance_cost_estimator** - Estimate annual compliance costs
-4. **compliance_score_engine** - Calculate compliance score for AI systems
-5. **check_eu_ai_act** - Check EU AI Act compliance by use case
-6. **check_nist_rmf** - Check NIST AI RMF compliance
-7. **check_gdpr** - GDPR compliance check
-8. **check_iso_42001** - ISO 42001 certification check
-9. **map_frameworks** - Map compliance between frameworks
-10. **assess_penalties** - Calculate regulatory penalties
-11. **audit_report** - Generate audit report
-12. **full_governance_report** - Comprehensive governance report
+See the project repository for full documentation and examples.
 
-## Full Version
+## Enterprise Support
 
-For the full 62-tool Python version with all crosswalks:
-- PyPI: `pip install meok-governance-engine-mcp`
-- GitHub: https://github.com/CSOAI-ORG/meok-governance-engine-mcp
-- Docs: https://meok.ai/docs
+- 📧 nicholas@csoai.org
+- 🌐 [CSOAI.org](https://csoai.org)
 
-## Contact
+## License
 
-nick@meok.ai | meok.ai
+MIT © [CSOAI](https://csoai.org)
