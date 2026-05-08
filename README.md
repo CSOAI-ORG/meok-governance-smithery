@@ -1,38 +1,51 @@
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/CSOAI-ORG/meok-governance-smithery)](https://github.com/CSOAI-ORG/meok-governance-smithery/stargazers)
-
-# umeokU governanceU smithery
+# MEOK Governance Smithery
 
 **A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.**
 
-[![npm version](https://img.shields.io/npm/v/@meok-ai/meok-governance-smithery)](https://www.npmjs.com/package/@meok-ai/meok-governance-smithery)
+[![PyPI](https://img.shields.io/pypi/v/meok-governance-smithery)](https://pypi.org/project/meok-governance-smithery/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-255+_servers-purple)](https://meok.ai)
-
-[Installation](#installation) · [Docs](https://csoai.org) · [Report Bug](https://github.com/CSOAI-ORG/meok-governance-smithery/issues)
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-MCP_Server-purple)](https://meok.ai)
 
 </div>
 
----
+## Overview
+
+MEOK Governance Smithery is a Smithery-compatible MCP server that wraps the MEOK Governance Engine. It provides governance health checks and server info endpoints via the Model Context Protocol (MCP), deployable on the Smithery platform.
+
+## Tools
+
+| Tool | Description |
+|------|-------------|
+| `health_check` | Health check endpoint - returns operational status |
+| `get_info` | Get server information including name, version, and capabilities |
 
 ## Installation
 
 ```bash
 pip install meok-governance-smithery
-# or
-npm install -g @meok-ai/meok-governance-smithery
 ```
 
-## Quick Start
+## Usage with Claude Desktop
 
-See the project repository for full documentation and examples.
+Add to your Claude Desktop MCP config (`claude_desktop_config.json`):
 
-## Enterprise Support
+```json
+{
+  "mcpServers": {
+    "meok-governance-smithery": {
+      "command": "python",
+      "args": ["-m", "meok_governance_smithery.server"]
+    }
+  }
+}
+```
 
-- 📧 nicholas@csoai.org
-- 🌐 [CSOAI.org](https://csoai.org)
+## Smithery Deployment
+
+This server includes a `smithery.yaml` configuration for direct deployment on [Smithery](https://smithery.ai).
 
 ## License
 
-MIT © [CSOAI](https://csoai.org)
+MIT © [MEOK AI Labs](https://meok.ai)
