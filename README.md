@@ -1,51 +1,78 @@
-<div align="center">
+# Meok Governance Smithery
 
-# MEOK Governance Smithery
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_governance_smithery/)
 
-**A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.**
+> MEOK Governance Engine - 62 AI governance tools for Smithery
 
-[![PyPI](https://img.shields.io/pypi/v/meok-governance-smithery)](https://pypi.org/project/meok-governance-smithery/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![MEOK AI Labs](https://img.shields.io/badge/MEOK_AI_Labs-MCP_Server-purple)](https://meok.ai)
+MEOK Governance Engine - 62 AI governance tools for Smithery
 
-</div>
+---
 
-## Overview
-
-MEOK Governance Smithery is a Smithery-compatible MCP server that wraps the MEOK Governance Engine. It provides governance health checks and server info endpoints via the Model Context Protocol (MCP), deployable on the Smithery platform.
-
-## Tools
-
-| Tool | Description |
-|------|-------------|
-| `health_check` | Health check endpoint - returns operational status |
-| `get_info` | Get server information including name, version, and capabilities |
-
-## Installation
+## 🚀 Quick Start
 
 ```bash
-pip install meok-governance-smithery
+# Install via pip
+pip install meok_governance_smithery
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-governance-smithery --client claude
 ```
 
-## Usage with Claude Desktop
+## ✨ Features
 
-Add to your Claude Desktop MCP config (`claude_desktop_config.json`):
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
 
-```json
-{
-  "mcpServers": {
-    "meok-governance-smithery": {
-      "command": "python",
-      "args": ["-m", "meok_governance_smithery.server"]
-    }
-  }
-}
-```
+## 📖 Documentation
 
-## Smithery Deployment
+- [Full Documentation](https://docs.meok.ai/meok-governance-smithery)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-This server includes a `smithery.yaml` configuration for direct deployment on [Smithery](https://smithery.ai).
+## 🛡️ Compliance
 
-## License
+This MCP server is built with **EU AI Act compliance** built-in:
 
-MIT © [MEOK AI Labs](https://meok.ai)
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
+
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
+
+## 🏢 Enterprise
+
+Need custom development, SLA guarantees, or white-label deployment?
+
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
+
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
+
+## 🤝 Part of the MEOK Ecosystem
+
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
