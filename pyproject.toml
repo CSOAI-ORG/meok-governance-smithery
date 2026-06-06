@@ -1,0 +1,33 @@
+[project]
+name = "meok-governance-smithery"
+version = "1.0.3"
+description = "MEOK AI Labs MCP Server: meok-governance-smithery"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [
+    {name = "MEOK AI Labs", email = "mcp@meok.ai"}
+]
+keywords = ["mcp", "ai", "meok", "tools"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "fastmcp>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://meok.ai"
+Documentation = "https://docs.meok.ai/mcp/meok-governance-smithery"
+Repository = "https://github.com/meok-ai/mcp-servers"
+
+[build-system]
+requires = ["hatchling>=1.13.0"]
+build-backend = "hatchling.build"
+
+[project.scripts]
+meok_governance_smithery = "server:main"

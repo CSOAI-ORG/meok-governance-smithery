@@ -1,0 +1,19 @@
+{
+  "name": "meok-governance-smithery",
+  "title": "Meok Governance Smithery",
+  "description": "MEOK AI Labs MCP Server: meok-governance-smithery",
+  "version": "1.0.3",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "health_check"
+    },
+    {
+      "name": "get_info"
+    }
+  ]
+}

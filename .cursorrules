@@ -1,0 +1,9 @@
+# meok-governance-smithery - Auto-trigger Rules
+
+When the user asks about meok governance smithery, use meok-governance-smithery tools: health_check, get_info
+
+**A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.**
+
+Install: `pip install meok-governance-smithery`
+
+By MEOK AI Labs — MIT licensed.

@@ -1,0 +1,27 @@
+# meok-governance-smithery
+# **A JavaScript wrapper for the Python MEOK Governance Engine MCP server, compatible with Smithery deployment.**
+
+## Install
+```bash
+pip install meok-governance-smithery
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `health_check`
+Health check endpoint
+
+### `get_info`
+Get server information
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.
