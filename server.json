@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "CSOAI-ORG/meok-governance-smithery",
+  "version": "1.0.0",
+  "description": "MEOK Governance Engine - 62 AI governance tools. EU AI Act + NIST + ISO 42001 + crosswalks. Most comprehensive compliance MCP.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CSOAI-ORG/meok-governance-smithery",
+    "source": "https://github.com/CSOAI-ORG/meok-governance-smithery"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@meok-ai/governance-engine",
+      "version": "1.0.0",
+      "runtimeHint": "node",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
