@@ -1,0 +1,41 @@
+{
+  "name": "meok-governance-smithery",
+  "description": "MEOK Governance Engine - 62 AI governance tools. EU AI Act + NIST + ISO 42001 + crosswalks. Most",
+  "url": "https://proofof.ai/scorecard/meok-governance-smithery.html",
+  "version": "1.0.3",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "health_check",
+      "name": "Health Check",
+      "description": "health_check via meok-governance-smithery",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_info",
+      "name": "Get Info",
+      "description": "get_info via meok-governance-smithery",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}
