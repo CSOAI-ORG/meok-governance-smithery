@@ -31,3 +31,6 @@ build-backend = "hatchling.build"
 
 [project.scripts]
 meok_governance_smithery = "server:main"
+
+[tool.hatch.build.targets.wheel]
+only-include = ["server.py"]

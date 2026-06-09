@@ -4,6 +4,7 @@ meok-governance-smithery - MCP Server
 Part of the MEOK AI Labs ecosystem
 """
 
+import os
 from fastmcp import FastMCP
 
 mcp = FastMCP("meok-governance-smithery")
