@@ -4,3 +4,7 @@ __pycache__/
 .dist/
 build/
 
+# Auto-added during alignment sweep
+dist/meok_governance_smithery-1.0.3.tar.gz
+dist/meok_governance_smithery-1.0.4-py3-none-any.whl
+dist/meok_governance_smithery-1.0.4.tar.gz
