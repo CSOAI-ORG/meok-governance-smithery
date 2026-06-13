@@ -1,0 +1,64 @@
+{
+  "name": "Meok Governance Smithery",
+  "version": "1.0.3",
+  "url": "https://mcp.meok.ai/meok-governance-smithery/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "MEOK AI Labs MCP Server: meok-governance-smithery",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "health_check",
+      "name": "Health Check",
+      "description": "Health Check — a tool of the meok-governance-smithery MCP.",
+      "tags": [
+        "governance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "get_info",
+      "name": "Get Info",
+      "description": "Get Info — a tool of the meok-governance-smithery MCP.",
+      "tags": [
+        "governance"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-governance-smithery",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
