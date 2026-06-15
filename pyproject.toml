@@ -1,6 +1,6 @@
 [project]
 name = "meok-governance-smithery"
-version = "1.0.4"
+version = "1.0.5"
 description = "MEOK AI Labs MCP Server: meok-governance-smithery"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -34,3 +34,22 @@ meok_governance_smithery = "server:main"
 
 [tool.hatch.build.targets.wheel]
 only-include = ["server.py"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "W", "I", "N"]
+ignore = ["E501"]
+
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+warn_return_any = true
+warn_unused_Configs = true
+disallow_untyped_defs = true
+
